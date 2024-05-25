@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  active: string = '#';
+
+  setActiveNav(url: string) {
+    this.active = url;
+  }
+
 }
