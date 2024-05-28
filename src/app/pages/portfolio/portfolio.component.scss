@@ -1,0 +1,133 @@
+.portfolio-title {
+  text-align: center;
+  margin-top: 6rem;
+  h5 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 10px;
+  justify-content: center;
+}
+.portfolio-bottom-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-item {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  transition: var(--transition);
+  position: relative;
+  border-radius: 16px;
+  transition: var(--transition);
+  width: 446px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid #4db5ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+    opacity: 0.8;
+    filter: blur(5px);
+    transform: scale(1.05);
+  }
+
+  h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "Arial Black", sans-serif;
+    font-size: 18px;
+    padding: 8px 0px;
+  }
+}
+
+
+
+
+
+.portfolio-item-cta {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+.portfolio-img {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+
+  img {
+    width: 100%;
+    height: 240px;
+    opacity: 1;
+    transition: opacity 0.3s, filter 0.3s;
+    opacity: 0.8;
+    filter: blur(5px);
+
+  }
+}
+
+
+
+.item-tittle-bottom {
+  padding: 8px;
+}
+
+.portfolio-item-cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.portfolio-item:hover .portfolio__item-cta {
+  opacity: 1;
+}
+
+.item-tittle-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-technologies {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.technology-icon {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.technology-name {
+  font-variant: all-petite-caps;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}

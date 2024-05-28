@@ -7,13 +7,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { HomeComponent } from './pages/home/home.component';
 import { EducationComponent } from './pages/education/education.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    EducationComponent
+    EducationComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
