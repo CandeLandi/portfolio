@@ -8,6 +8,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { HomeComponent } from './pages/home/home.component';
 import { EducationComponent } from './pages/education/education.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonModule
   ],
   providers: [
     provideAnimationsAsync()

@@ -10,26 +10,31 @@
       <h3>{{ item.name }}</h3>
       <div class="portfolio-img">
         <img [src]="item.src" [alt]="item.name">
+
       </div>
       <div class="portfolio-bottom-card">
-        @for (tecnology of item.tecnology; track tecnology){
-        <div class="item-tittle-bottom">
+        <div class="portfolio-item-bottom">
           <div class="items-technologies">
-              <img class="technology-icon" [src]="tecnology.src" alt="">
-             <!--  <h5>{{ tecnology.name }}</h5> -->
+            @for (tecnology of item.tecnology; track tecnology){
+            <img class="technology-icon" [src]="tecnology.src" alt="">
+            <!--  <h5 class="technology-name">{{ tecnology.name }}</h5> -->
+          }
           </div>
-
         </div>
-        }
         <div class="portfolio-item-cta">
           <div class="buttons">
-            <a href="github"> Github </a>
-            <a href="https://login-cl.netlify.app/#/auth/login"> Abrir Demo </a>
+            <a [href]="item.github" class="btn btn-primary" >
+              <i class='bx bxl-github'></i> Github
+            </a>
+            <a [routerLink]=""   class="btn btn-primary"
+              target="_blank">
+              <i class='bx bxs-send'></i> Abrir Demo
+          </a>
           </div>
         </div>
       </div>
     </article>
-    }
+  }
 
   </div>
 </section>
