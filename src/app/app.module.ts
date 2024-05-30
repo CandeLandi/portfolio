@@ -9,6 +9,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { EducationComponent } from './pages/education/education.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import {MatButtonModule} from '@angular/material/button';
+import { FooterComponent } from './components/footer/footer.component';
+import { ContactMeComponent } from './pages/contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import {MatButtonModule} from '@angular/material/button';
     NavbarComponent,
     HomeComponent,
     EducationComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    FooterComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,

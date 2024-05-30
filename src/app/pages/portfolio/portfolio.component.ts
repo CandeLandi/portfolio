@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-  selector: 'app-portfolio',
+  selector: 'page-portfolio',
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.scss'
 })
@@ -10,7 +10,7 @@ export class PortfolioComponent {
   items = [
     {
       name: 'Login',
-      src: '../../../',
+      src: './assets/projects-img/estilopet.png',
       tecnology: [
         { name: 'JavaScript', src: './assets/js.svg' },
         { name: 'HTML', src: './assets/html.svg' },
@@ -19,11 +19,12 @@ export class PortfolioComponent {
         { name: 'Nest Js', src: './assets/nest.svg' },
       ],
       link: 'https://login-cl.netlify.app/#/auth/login',
-      github: 'https://github.com/CandeLandi/auth-app'
+      github: 'https://github.com/CandeLandi/auth-app',
+      description: '"Login" hecho con Angular, Backend en NestJS y desplegado en Netlify',
     },
     {
       name: 'Maps App',
-      src: '../../../',
+      src: './assets/projects-img/formulario.png',
       tecnology: [
         { name: 'JavaScript', src: './assets/js.svg' },
         { name: 'HTML', src: './assets/html.svg' },
@@ -35,7 +36,7 @@ export class PortfolioComponent {
     },
     {
       name: 'Forms Angular',
-      src: '../../../',
+      src: './assets/projects-img/estilopet.png',
       tecnology: [
         { name: 'JavaScript', src: './assets/js.svg' },
         { name: 'HTML', src: './assets/html.svg' },
@@ -47,7 +48,7 @@ export class PortfolioComponent {
     },
     {
       name: 'Pipes',
-      src: '../../../',
+      src: './assets/projects-img/galeria.png',
       tecnology: [
         { name: 'JavaScript', src: './assets/js.svg' },
         { name: 'HTML', src: './assets/html.svg' },
@@ -60,7 +61,7 @@ export class PortfolioComponent {
     },
     {
       name: 'Gifs App',
-      src: '../../../',
+      src: './assets/projects-img/galeria.png',
       tecnology: [
         { name: 'JavaScript', src: './assets/js.svg' },
         { name: 'HTML', src: './assets/html.svg' },
