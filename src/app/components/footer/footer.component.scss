@@ -7,29 +7,59 @@ footer {
 
   .social-icons {
     text-align: center;
-    padding-bottom: 25px ;
+    padding-bottom: 25px;
     color: var(--main-color);
 
     a {
-      width: 2.5rem;
-      color: white;
+      width: 42px;
+      height: 42px;
+      color: var(--main-color);
       display: inline-flex;
       justify-content: center;
       align-items: center;
-      height: 2.5rem;
       background: transparent;
-      border: var(--main-color);
-      margin: 3rem 1.5rem 3rem 0;
+      margin: 0 10px;
       transition: 0.3s ease-in-out;
       border-radius: 50%;
       border: 2px solid var(--main-color);
+      font-size: 25px;
+
       &:hover {
-        color: var(--text-color);
-        transform: scale(1.3)translateY(-5px);
+        color: black;
+        transform: scale(1.2)translateY(-10px);
         box-shadow: 0 0 25px var(--main-color);
         background-color: var(--main-color);
       }
+    }
   }
-}
 
+  ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      padding: 0 15px;
+
+      a {
+        color: white;
+        border-bottom: 3px solid transparent;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          border-bottom: 3px solid var(--main-color);
+        }
+      }
+    }
+  }
+  .footer-name {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    opacity: .8;
+  }
 }
