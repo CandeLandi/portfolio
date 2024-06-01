@@ -24,6 +24,7 @@ footer {
       border: 2px solid var(--main-color);
       font-size: 25px;
 
+
       &:hover {
         color: black;
         transform: scale(1.2)translateY(-10px);
@@ -49,6 +50,7 @@ footer {
         color: white;
         border-bottom: 3px solid transparent;
         transition: 0.3s ease-in-out;
+        text-decoration: none;
 
         &:hover {
           border-bottom: 3px solid var(--main-color);
