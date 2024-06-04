@@ -206,3 +206,23 @@ section {
 
 
 }
+
+
+@media(max-width:991px){
+  section {
+    padding: 12rem 12% 12rem;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.8;
+  }
+}
+
+h3 {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+

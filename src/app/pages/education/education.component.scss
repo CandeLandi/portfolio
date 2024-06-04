@@ -97,3 +97,22 @@ section {
   }
 }
 
+@media(max-width:991px){
+  section{
+    padding: 10rem 3% 2rem;
+  }
+/*  .timeline-items::before{
+  left: 7px;
+ } */
+ .timeline-item:nth-child(odd){
+  padding-right: 0;
+  text-align: left;
+ }
+ .timeline-item:nth-child(odd),
+ .timeline-item:nth-child(even){
+  padding-left: 37;
+ }
+ .timeline-dot{
+  left: 0;
+ }
+}

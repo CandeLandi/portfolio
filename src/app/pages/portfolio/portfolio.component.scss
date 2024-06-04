@@ -143,16 +143,15 @@
 .buttons {
   margin-top: 15px;
   display: flex;
-  gap: 15px;
-  position: relative; // Asegurar que los botones estén en el mismo nivel de apilamiento
-  z-index: 2; // Asegurar que los botones estén sobre el fondo desenfocado
-
+  gap: 20px;
+  position: relative;
+  z-index: 2;
+  a {
+    padding: 15px;
+    z-index: inherit;
+  }
 }
 
-.buttons button {
-  padding: 10px;
-  z-index: inherit; // Heredar el z-index del padre (portfolio-item)
-}
 
 @media screen and (max-width: 1024px) {
   .portfolio-container {
