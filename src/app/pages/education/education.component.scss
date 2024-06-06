@@ -24,6 +24,7 @@ section {
   box-shadow: 0 0 10px var(--main-color);
   cursor: pointer;
   transition: 0.3s ease-in-out;
+
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px var(--main-color);
@@ -35,6 +36,7 @@ section {
     margin: 0 0 10px;
     font-weight: 500;
   }
+
   p {
     color: white;
     font-size: 16px;
@@ -43,13 +45,15 @@ section {
   }
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 15px;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
   background-color: var(--bg-color);
   width: 50px;
 }
@@ -69,26 +73,31 @@ section {
     background-color: var(--main-color);
     left: calc(50% - 1px);
   }
+
   .timeline-item {
     margin-bottom: 40px;
     width: 100%;
     position: relative;
-    &:last-child{
+
+    &:last-child {
       margin-bottom: 0px;
     }
-    &:nth-child(odd){
-      padding-right: calc( 50% + 30px );
+
+    &:nth-child(odd) {
+      padding-right: calc(50% + 30px);
       text-align: right;
     }
-    &:nth-child(even){
+
+    &:nth-child(even) {
       padding-left: calc(50% + 30px);
     }
+
     .timeline-dot {
       height: 21px;
       width: 21px;
       background-color: var(--main-color);
       box-shadow: 0 0 25px var(--main-color),
-                  0 0 50px var(--main-color);
+        0 0 50px var(--main-color);
       position: absolute;
       left: calc(50% - 8px);
       border-end-end-radius: 50%;
@@ -97,22 +106,86 @@ section {
   }
 }
 
-@media(max-width:991px){
-  section{
+@media(max-width:895px) {
+  section {
     padding: 10rem 3% 2rem;
   }
-/*  .timeline-items::before{
-  left: 7px;
- } */
- .timeline-item:nth-child(odd){
-  padding-right: 0;
-  text-align: left;
- }
- .timeline-item:nth-child(odd),
- .timeline-item:nth-child(even){
-  padding-left: 37;
- }
- .timeline-dot{
-  left: 0;
- }
+
+
+  .timeline-content {
+    padding: 25px 25px;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px var(--main-color);
+    }
+
+    h3 {
+      font-size: 15px;
+      margin: 0 0 10px;
+
+    }
+
+    p {
+      color: white;
+      font-size: 12px;
+
+    }
+
+    span {
+      font-size: 12px;
+    }
+  }
+
+
+  .timeline-items {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &::before {
+
+
+    }
+
+    .timeline-item {
+
+      width: 350px;
+
+      &:last-child {
+        margin-bottom: 0px;
+      }
+
+      &:nth-child(odd) {
+        padding-right: 0;
+        text-align: left;
+      }
+
+      &:nth-child(even) {
+        padding-left: 10px;
+      }
+
+      .timeline-dot {
+        left: 0;
+
+        height: 11px;
+        width: 11px;
+
+      }
+
+    }
+  }
+
+
+  .timeline-date {
+    padding-left: 25px;
+    font-size: 12px;
+
+  }
+
+
+
+
+
 }

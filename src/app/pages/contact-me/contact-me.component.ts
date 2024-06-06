@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class ContactMeComponent {
 
 
-  email : string = 'Landicandela01@gmail.com';
+  emailTo : string = 'Landicandela01@gmail.com';
 
 }

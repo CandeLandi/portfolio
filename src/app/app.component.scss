@@ -4,11 +4,11 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 12% 2rem;
+    padding: 25px 50px;
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
     align-items: center;
     z-index: 5;
 
@@ -16,19 +16,13 @@
       text-decoration: none;
     }
 
-    .logo {
-      font-size: 3rem;
-      color: var(--text-color);
-      font-weight: 800;
-      cursor: pointer;
+  }
 
-      &:hover {
-        transform: scale(1.1);
-        transition: transform 0.5s ease;
-      }
-
-      span {
-        text-shadow: 0 0 25px var(--main-color);
-      }
+  @media(max-width:600px){
+    header {
+      display: flex;
+      justify-content: center;
     }
   }
+
+

@@ -68,10 +68,26 @@ footer {
 }
 
 
-@media(max-width:1285px){
-
-}
 
 @media(max-width:991px){
 
+  footer {
+    padding: 2rem 13%;
+    a {
+      font-size: 15px;
+    }
+  }
+}
+
+@media(max-width:600px){
+
+  footer {
+    .social-icons {
+      a {
+        width: 38px;
+        height: 38px;
+    }
+  }
+
+  }
 }
