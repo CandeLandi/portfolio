@@ -40,23 +40,11 @@ export class PortfolioComponent {
         { name: 'Css', src: './assets/icons/css-3.svg' },
         { name: 'JavaScript', src: './assets/icons/js.svg' },
         { name: 'Angular', src: './assets/icons/angular.png' },
+        { name: 'Nest Js', src: './assets/icons/nest.svg' },
       ],
       link: 'https://angular-heroes-crud-app.netlify.app',
       github: 'https://github.com/CandeLandi/heroes-app'
     },
-    {
-      name: 'Search Gifs App',
-      src: './assets/projects-img/gifs.png',
-      tecnology: [
-        { name: 'HTML', src: './assets/icons/html.svg' },
-        { name: 'Css', src: './assets/icons/css-3.svg' },
-        { name: 'JavaScript', src: './assets/icons/js.svg' },
-        { name: 'Angular', src: './assets/icons/angular.png' },
-      ],
-      link: 'https://angular-search-gifs-app.netlify.app',
-      github: 'https://github.com/CandeLandi/gifs-app'
-    },
-
     {
       name: 'Login/Register',
       src: './assets/projects-img/login.png',
@@ -69,6 +57,18 @@ export class PortfolioComponent {
       ],
       link: 'https://login-cl.netlify.app/#/auth/login',
       github: 'https://github.com/CandeLandi/auth-app',
+    },
+    {
+      name: 'Search Gifs App',
+      src: './assets/projects-img/gifs.png',
+      tecnology: [
+        { name: 'HTML', src: './assets/icons/html.svg' },
+        { name: 'Css', src: './assets/icons/css-3.svg' },
+        { name: 'JavaScript', src: './assets/icons/js.svg' },
+        { name: 'Angular', src: './assets/icons/angular.png' },
+      ],
+      link: 'https://angular-search-gifs-app.netlify.app',
+      github: 'https://github.com/CandeLandi/gifs-app'
     },
     {
       name: 'Formularios en Angular',
