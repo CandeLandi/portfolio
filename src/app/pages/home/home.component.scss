@@ -147,7 +147,7 @@ section {
 }
 
 .text-animation span::before {
-  content: "Desarrolladora Frontend";
+  content: "Desarrolladora Front End"  !important;
   color: var(--main-color);
   animation: words 20s infinite;
 }
@@ -178,7 +178,7 @@ section {
   60%,
   80%,
   100% {
-    content: "Desarrolladora Front End" !important;
+    content: "";
   }
 }
 
