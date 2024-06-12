@@ -146,6 +146,11 @@ section {
   position: relative;
 }
 
+.text-animation span::before {
+  content: "Desarrolladora Front End";
+  color: rgb(0, 189, 176);
+  animation: words 20s infinite;
+}
 
 .text-animation span::after {
   content: "";
@@ -159,11 +164,6 @@ section {
 
 }
 
-.text-animation span::before {
-  content: "Desarrolladora Front End" !important;
-  color: var(--main-color);
-  animation: words 20s infinite;
-}
 
 @keyframes cursor {
   to {
