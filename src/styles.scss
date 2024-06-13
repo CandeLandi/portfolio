@@ -27,19 +27,14 @@
   --container-width-sm: 90%;
 }
 
-
-
-
-html,
-body {
+html, body {
   height: 100%;
 }
-
 
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
-font-size: 1rem;
+  font-size: 1rem;
   background-color: var(--bg-color);
-  color: var( --text-color );
+  color: var(--text-color);
 }
