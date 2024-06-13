@@ -136,49 +136,35 @@ section {
   }
 }
 
+
 .text-animation {
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 600;
   min-width: 280px;
+  display: inline-block;
 }
 
 .text-animation span {
   position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  border-right: 2px solid var(--main-color);
+  animation: typing 3s steps(24, end) infinite, blink-caret 0.75s step-end infinite;
 }
 
-.text-animation span::before {
-  content: "Desarrolladora Front End";
-  color: rgb(0, 189, 176);
-  animation: words 20s infinite;
-}
-
-.text-animation span::after {
-  content: "";
-/*   background-color: var(--bg-color);
- */  position: absolute;
-  width: calc(100% + 8px);
-  height: 100%;
-/*   border-left: 3px solid var(--bg-color); */
-  right: -8px;
-  animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
-}
-
-@keyframes cursor {
-  to {
-    border-left: 2px solid var(--main-color);
-  }
-}
 
 @keyframes typing {
-  10%, 15%, 30%, 45%, 50%, 55%, 60%, 65%, 70%, 75%, 90%, 95% {
-    width: 0;
-  }
-
-  5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
-    width: calc(100% + 8px);
-  }
+  from { width: 0; }
+  to { width: 100%; }
 }
 
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: var(--main-color); }
+}
 
 
 @media(max-width:895px) {
