@@ -1,7 +1,19 @@
-
 <nav class="navbar">
-  <a href="#home"  class="active"><span> Inicio </span></a>
-  <a href="#education"> Educación </a>
-  <a href="#portfolio"> Proyectos </a>
-  <a href="#contact"> Contáctame </a>
+  <button mat-icon-button class="hamburger-menu" (click)="toggleMenu()" *ngIf="isMobile">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <div [class.active]="menuOpen || !isMobile" class="menu">
+    <a href="#home" [class.active]="active === '#home'" (click)="setActiveNav('#home')">Inicio</a>
+    <a href="#education" [class.active]="active === '#education'" (click)="setActiveNav('#education')">Educación</a>
+    <a href="#portfolio" [class.active]="active === '#portfolio'" (click)="setActiveNav('#portfolio')">Proyectos</a>
+    <a href="#contact" [class.active]="active === '#contact'" (click)="setActiveNav('#contact')">Contáctame</a>
+  </div>
 </nav>
+<mat-sidenav-container *ngIf="isMobile" class="sidenav-container">
+  <mat-sidenav #sidenav mode="over" [(opened)]="menuOpen">
+    <a href="#home" [class.active]="active === '#home'" (click)="setActiveNav('#home'); sidenav.close()">Inicio</a>
+    <a href="#education" [class.active]="active === '#education'" (click)="setActiveNav('#education'); sidenav.close()">Educación</a>
+    <a href="#portfolio" [class.active]="active === '#portfolio'" (click)="setActiveNav('#portfolio'); sidenav.close()">Proyectos</a>
+    <a href="#contact" [class.active]="active === '#contact'" (click)="setActiveNav('#contact'); sidenav.close()">Contáctame</a>
+  </mat-sidenav>
+</mat-sidenav-container>

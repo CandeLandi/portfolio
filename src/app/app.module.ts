@@ -11,6 +11,8 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import {MatButtonModule} from '@angular/material/button';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactMeComponent } from './pages/contact-me/contact-me.component';
+import {MatIconModule} from '@angular/material/icon';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ContactMeComponent } from './pages/contact-me/contact-me.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule,
+    MatSidenavModule
   ],
   providers: [
     provideAnimationsAsync()

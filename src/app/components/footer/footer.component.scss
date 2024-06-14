@@ -82,8 +82,7 @@ footer {
   }
 }
 
-@media(max-width:600px) {
-
+@media (max-width: 600px) {
   footer {
     .social-icons {
       a {
@@ -92,15 +91,8 @@ footer {
       }
     }
 
-  }
-
-  .list {
-    display: flex;
-    justify-content: space-between;
-    li {
-      a {
-        color: red($color: #000000);
-      }
+    .list {
+      display: none;  // Ocultar el menú cuando el ancho es menor a 600px
     }
   }
 }

@@ -154,18 +154,24 @@ section {
   animation: typing 3s steps(24, end) infinite, blink-caret 0.75s step-end infinite;
 }
 
-
 @keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
+  0% { width: 0; }
+  50% { width: 100%; }
+  100% { width: 100%; }
 }
 
 
 @keyframes blink-caret {
-  from, to { border-color: transparent; }
-  50% { border-color: var(--main-color); }
-}
 
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: var(--main-color);
+  }
+}
 
 @media(max-width:895px) {
 
@@ -174,8 +180,9 @@ section {
     flex-direction: column-reverse;
 
     .home-content {
+      text-align: start;
       h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
       }
 
       h3 {
@@ -197,5 +204,32 @@ section {
     }
   }
 
+
+}
+
+@media(max-width:600px) {
+
+  .home {
+    flex-direction: column-reverse;
+
+    .home-content {
+      text-align: start;
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        max-width: 300px;
+        margin: 0 auto;
+        font-size: 14px;
+      }
+
+
+    }
+  }
 
 }

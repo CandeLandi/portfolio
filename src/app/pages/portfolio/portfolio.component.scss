@@ -12,7 +12,7 @@
 .portfolio-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
+  gap: 3rem;
   display: flex;
   flex-wrap: wrap;
   margin: 0px 10px;
@@ -36,6 +36,7 @@
   background: rgba(0, 0, 0, 0.3);
   border: 1px solid var(--main-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
 
 
   &:hover {
@@ -159,10 +160,22 @@
 
 @media screen and (max-width: 600px) {
   .portfolio-title {
+    width: 100%;
+
     h2 {
-      font-size: 3rem;
+      font-size: 2rem;
     }
   }
+
+  .portfolio-container {
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+
+  }
+
+
 }
 
 span {
