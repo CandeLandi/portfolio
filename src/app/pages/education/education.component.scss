@@ -58,8 +58,8 @@ section {
 }
 
 .timeline-items {
-  max-width: 1200px;
   margin: auto;
+  padding: 15px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -147,7 +147,7 @@ section {
 
     .timeline-item {
 
-      width: 350px;
+      width: 300px;
 
       &:last-child {
         margin-bottom: 0px;
@@ -178,4 +178,10 @@ section {
     font-size: 12px;
 
   }
+}
+
+@media(max-width:600px) {
+
+
+
 }
