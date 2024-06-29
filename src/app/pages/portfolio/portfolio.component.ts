@@ -9,6 +9,18 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
   items = [
     {
+      name: 'Todo App',
+      src: './assets/projects-img/todos.png',
+      tecnology: [
+        { name: 'HTML', src: './assets/icons/html.svg' },
+        { name: 'Css', src: './assets/icons/css-3.svg' },
+        { name: 'JavaScript', src: './assets/icons/js.svg' },
+        { name: 'Angular', src: './assets/icons/angular.png' },
+      ],
+      link: 'https://redux-angular-todo-app.netlify.app/',
+      github: 'https://github.com/CandeLandi/todo-app'
+    },
+    {
       name: 'Map App 1',
       src: './assets/projects-img/maps-1.png',
       tecnology: [
@@ -41,6 +53,8 @@ export class PortfolioComponent {
         { name: 'JavaScript', src: './assets/icons/js.svg' },
         { name: 'Angular', src: './assets/icons/angular.png' },
         { name: 'Nest Js', src: './assets/icons/nest.svg' },
+        { name: 'Mongo', src: './assets/icons/mongo.svg' },
+
       ],
       link: 'https://angular-heroes-crud-app.netlify.app',
       github: 'https://github.com/CandeLandi/heroes-app'
@@ -54,6 +68,7 @@ export class PortfolioComponent {
         { name: 'JavaScript', src: './assets/icons/js.svg' },
         { name: 'Angular', src: './assets/icons/angular.png' },
         { name: 'Nest Js', src: './assets/icons/nest.svg' },
+        { name: 'Mongo', src: './assets/icons/mongo.svg' },
       ],
       link: 'https://login-cl.netlify.app/#/auth/login',
       github: 'https://github.com/CandeLandi/auth-app',
