@@ -9,6 +9,19 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
   items = [
     {
+      name: 'Ingresos Egresos App',
+      src: './assets/projects-img/IncomeOutcome.png',
+      tecnology: [
+        { name: 'HTML', src: './assets/icons/html.svg' },
+        { name: 'Css', src: './assets/icons/css-3.svg' },
+        { name: 'JavaScript', src: './assets/icons/js.svg' },
+        { name: 'Angular', src: './assets/icons/angular.png' },
+        { name: 'Firebase', src: './assets/icons/firebase.svg' },
+      ],
+      link: 'https://income-exit-adf5b.web.app/login',
+      github: 'https://github.com/CandeLandi/income-outcome-app'
+    },
+    {
       name: 'Todo App',
       src: './assets/projects-img/todos.png',
       tecnology: [
