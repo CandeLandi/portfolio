@@ -16,6 +16,7 @@ export class PortfolioComponent {
         { name: 'Css', src: './assets/icons/css-3.svg' },
         { name: 'JavaScript', src: './assets/icons/js.svg' },
         { name: 'Angular', src: './assets/icons/angular.png' },
+        { name: 'Redux', src: './assets/icons/redux.png' },
         { name: 'Firebase', src: './assets/icons/firebase.svg' },
       ],
       link: 'https://income-exit-adf5b.web.app/login',
@@ -29,6 +30,7 @@ export class PortfolioComponent {
         { name: 'Css', src: './assets/icons/css-3.svg' },
         { name: 'JavaScript', src: './assets/icons/js.svg' },
         { name: 'Angular', src: './assets/icons/angular.png' },
+        { name: 'Redux', src: './assets/icons/redux.png' },
       ],
       link: 'https://redux-angular-todo-app.netlify.app/',
       github: 'https://github.com/CandeLandi/todo-app'
