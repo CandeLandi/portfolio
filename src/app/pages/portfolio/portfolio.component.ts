@@ -23,6 +23,20 @@ export class PortfolioComponent {
       github: 'https://github.com/CandeLandi/income-outcome-app'
     },
     {
+      name: 'Effects con Ngrx',
+      src: './assets/projects-img/http-effects.png',
+      tecnology: [
+        { name: 'HTML', src: './assets/icons/html.svg' },
+        { name: 'Css', src: './assets/icons/css-3.svg' },
+        { name: 'JavaScript', src: './assets/icons/js.svg' },
+        { name: 'Angular', src: './assets/icons/angular.png' },
+        { name: 'Redux', src: './assets/icons/redux.png' },
+        { name: 'Firebase', src: './assets/icons/firebase.svg' },
+      ],
+      link: 'https://effects-redux-ngrx.netlify.app',
+      github: 'https://github.com/CandeLandi/http-effects'
+    },
+    {
       name: 'Todo App',
       src: './assets/projects-img/todos.png',
       tecnology: [
