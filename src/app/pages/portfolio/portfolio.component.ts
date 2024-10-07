@@ -9,6 +9,19 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
   items = [
     {
+      name: 'Admin Pro - Frontend & Backend',
+      src: './assets/projects-img/crud-hospitals.png',
+      tecnology: [
+        { name: 'HTML', src: './assets/icons/html.svg' },
+        { name: 'Css', src: './assets/icons/css-3.svg' },
+        { name: 'JavaScript', src: './assets/icons/js.svg' },
+        { name: 'Angular', src: './assets/icons/angular.png' },
+        { name: 'ExpressJs', src: './assets/icons/express-js.png' },
+      ],
+      link: 'https://adminpro-backend1-993bf28005ef.herokuapp.com',
+      github: 'https://github.com/CandeLandi/admin-pro'
+    },
+    {
       name: 'Ingresos Egresos App',
       src: './assets/projects-img/IncomeOutcome.png',
       tecnology: [
