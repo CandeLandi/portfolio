@@ -17,6 +17,7 @@ export class PortfolioComponent {
         { name: 'JavaScript', src: './assets/icons/js.svg' },
         { name: 'Angular', src: './assets/icons/angular.png' },
         { name: 'Firebase', src: './assets/icons/firebase.svg' },
+        { name: 'ExpressJs', src: './assets/icons/express-js.png' },
 
       ],
       link: 'https://firestore-chart-67176.web.app',
