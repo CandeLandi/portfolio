@@ -9,6 +9,20 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
   items = [
     {
+      name: 'Game of the year - Frontend & Backend',
+      src: './assets/projects-img/goty.png',
+      tecnology: [
+        { name: 'HTML', src: './assets/icons/html.svg' },
+        { name: 'Css', src: './assets/icons/css-3.svg' },
+        { name: 'JavaScript', src: './assets/icons/js.svg' },
+        { name: 'Angular', src: './assets/icons/angular.png' },
+        { name: 'Firebase', src: './assets/icons/firebase.svg' },
+
+      ],
+      link: 'https://firestore-chart-67176.web.app',
+      github: 'https://github.com/CandeLandi/goty'
+    },
+    {
       name: 'Admin Pro - Frontend & Backend',
       src: './assets/projects-img/crud-hospitals.png',
       tecnology: [
