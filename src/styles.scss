@@ -31,9 +31,6 @@ html, body {
   height: 100%;
 }
 
-.wrapper {
-  padding: 1rem;
-}
 
 body {
   margin: 0;
@@ -41,4 +38,5 @@ body {
   font-size: 1rem;
   background-color: var(--bg-color);
   color: var(--text-color);
+  align-items: center;
 }

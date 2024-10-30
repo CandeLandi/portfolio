@@ -1,19 +1,32 @@
 <nav class="navbar">
+
   <button mat-icon-button class="hamburger-menu" (click)="toggleMenu()" *ngIf="isMobile">
     <mat-icon>menu</mat-icon>
   </button>
+
   <div [class.active]="menuOpen || !isMobile" class="menu">
-    <a href="#home" [class.active]="active === '#home'" (click)="setActiveNav('#home')">Inicio</a>
-    <a href="#education" [class.active]="active === '#education'" (click)="setActiveNav('#education')">Educación</a>
-    <a href="#portfolio" [class.active]="active === '#portfolio'" (click)="setActiveNav('#portfolio')">Proyectos</a>
-    <a href="#contact" [class.active]="active === '#contact'" (click)="setActiveNav('#contact')">Contáctame</a>
+    <a href="#home" [class.active]="active === '#home'" (click)="setActiveNav('#home')"> {{ "home-title" | translate}} </a>
+    <a href="#education" [class.active]="active === '#education'" (click)="setActiveNav('#education')">  {{ "education" | translate}}</a>
+    <a href="#portfolio" [class.active]="active === '#portfolio'" (click)="setActiveNav('#portfolio')"> {{ "portfolio-title" | translate}}</a>
+    <a href="#contact" [class.active]="active === '#contact'" (click)="setActiveNav('#contact')"> {{ "contact-title" | translate}}</a>
   </div>
+
+
+    <div class="language-switcher">
+      <img src="assets/icons/estados-unidos.png" alt="English" (click)="switchLanguage('en')" title="English" class="flag-icon" />
+      <img src="assets/icons/argentina.png" alt="Español" (click)="switchLanguage('es')" title="Español" class="flag-icon" />
+    </div>
+
+
 </nav>
 <mat-sidenav-container *ngIf="isMobile" class="sidenav-container">
   <mat-sidenav #sidenav mode="over" [(opened)]="menuOpen">
-    <a href="#home" [class.active]="active === '#home'" (click)="setActiveNav('#home'); sidenav.close()">Inicio</a>
-    <a href="#education" [class.active]="active === '#education'" (click)="setActiveNav('#education'); sidenav.close()">Educación</a>
-    <a href="#portfolio" [class.active]="active === '#portfolio'" (click)="setActiveNav('#portfolio'); sidenav.close()">Proyectos</a>
-    <a href="#contact" [class.active]="active === '#contact'" (click)="setActiveNav('#contact'); sidenav.close()">Contáctame</a>
+    <a href="#home" [class.active]="active === '#home'" (click)="setActiveNav('#home'); sidenav.close()">{{ "home-title" | translate }}</a>
+    <a href="#education" [class.active]="active === '#education'" (click)="setActiveNav('#education'); sidenav.close()"> {{ "education" | translate}}</a>
+    <a href="#portfolio" [class.active]="active === '#portfolio'" (click)="setActiveNav('#portfolio'); sidenav.close()"> {{ "portfolio-title" | translate}}</a>
+    <a href="#contact" [class.active]="active === '#contact'" (click)="setActiveNav('#contact'); sidenav.close()"> {{ "contact-title" | translate}}</a>
   </mat-sidenav>
+
 </mat-sidenav-container>
+
+

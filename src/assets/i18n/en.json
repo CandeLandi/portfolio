@@ -1,0 +1,42 @@
+{
+  "welcome-home": "Hello! I'm",
+  "description": "I am 23 years old, from Necochea, and have been in the field of web development for over a year, dedicating a lot of time to learning and practicing technologies like HTML, CSS, JavaScript, Angular, and NestJs. I am a proactive, creative person who loves learning and taking on new challenges. I am looking to grow professionally and be part of a dynamic team!",
+  "about": "Frontend Developer",
+  "download": "Download CV",
+
+  "education": "Education",
+  "course-name-one": "Advanced Angular: MEAN Stack",
+  "course-description-one": "An advanced course where I learned to develop modular and scalable applications in Angular using the MEAN Stack (MongoDB, Express, Angular, Node.js). I implemented secure authentication with JWT and Google Sign-In, built RESTful APIs with Express, and worked with unit testing, continuous integration, and version control with GitHub, preparing production-ready applications.",
+  "course-name-two": "REDUX in Angular with NGRX: From Basics to Practice",
+  "course-description-two": "A course on implementing the Redux pattern in Angular applications, using NgRx to efficiently manage state changes. I mastered NgRx, including the use of effects for handling asynchronous tasks and complex actions. The course also covered integration with Firebase, using AngularFire2, Firebase Hosting, and Firestore, which enabled me to deploy applications in production environments. This experience expanded my knowledge in Angular, equipping me to develop scalable and optimized applications.",
+  "course-name-three": "Angular: From Zero to Expert",
+  "course-description-three": "An in-depth Angular course where I learned to develop applications using this framework, following standards and best practices. The course covered the use of TypeScript and the integration of third-party libraries (Bootstrap, PrimeNg, PrimeFlex, and Angular Material), as well as advanced topics like signals, components, directives, services, and maps. It also included backend work with NestJs, where I gained skills in JWT authentication, application deployment, and database management with MongoDB, Docker, and Postman for testing.",
+  "course-name-four": "CoderHouse - Angular",
+  "course-description-four": "A course focused on the fundamental concepts of Angular, including the development of CRUD applications using Angular Material and Redux for state management.",
+  "course-name-five": "JavaScript: The Complete, Practical Course from Scratch",
+  "course-description-five": "An intensive course covering advanced JavaScript concepts, including BOM and DOM management for creating interactive websites. Six practical projects were developed, and APIs were explored for integration with servers and external services.",
+  "course-name-six": "CoderHouse - JavaScript",
+  "course-description-six": "A course focused on programming with JavaScript, covering functions, operators, promises, loops, synchronization, and data handling with Storage & JSON.",
+  "course-name-seven": "CoderHouse - Web Development",
+  "course-description-seven": "A course focused on web development fundamentals, covering HTML, CSS, NodeJs, Git, GitHub, Sass, SEO, servers, animations, and frameworks like Bootstrap. Duration: 38 hours over 10 weeks.",
+
+  "bachelor": "Technical School No. 3",
+  "bachelor-description": "Graduated with a specialization in 'Multimedia Communication Technician.' During this time, I acquired a wide range of skills in handling various tools and software, including video editing, graphic design, animation, communication, scripting, and web development.",
+
+  "in-ten-weeks": "in ten weeks.",
+  "in-nine-weeks": "in nine weeks.",
+  "duration": "Duration",
+  "hours": "hours",
+  "finished": "Completed",
+
+  "portfolio": "Recent Work",
+
+  "portfolio-title": "Projects",
+  "home-title": "Home",
+  "contact-title": "Contact Me",
+
+  "chit-chat": "Let's Chat!",
+  "send-message": "Send Message",
+
+  "skills": "Skills"
+}

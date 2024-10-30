@@ -1,3 +1,4 @@
+
 header {
   position: fixed;
   top: 0;
@@ -17,10 +18,12 @@ header {
 
 }
 
+
 @media(max-width:600px) {
   header {
     display: flex;
     align-items: flex-end;
-    padding: 15px 30px;
+    padding: 10px;
   }
+
 }

@@ -1,35 +1,33 @@
 <section class="home" id="home">
   <div class="home-content">
-    <h1>Hola! soy <span>Candela</span></h1>
-    <h3 class="text-animation"> <span>Desarrolladora Frontend</span> </h3>
+    <h1>{{ "welcome-home" | translate }} <span>Candela</span></h1>
+    <h3 class="text-animation"><span>{{ "about" | translate}}</span></h3>
 
     <p>
-      Tengo 23 años, soy de la ciudad de Necochea, llevo más de un año en el mundo del desarrollo web dedicando mucho tiempo a la capacitación y la
-      práctica de tecnologías como Html, Css, JavaScript, Angular y NestJs.
-
-      Soy una persona proactiva , creativa, me gusta mucho aprender y enfrentar nuevos desafíos.
-      Busco poder desarrollarme en el ámbito laboral y ser parte de un equipo de trabajo dinámico!
-
+      {{ "description" | translate }}
     </p>
 
     <div class="social-icons">
-      <a target="_blank" href="https://www.linkedin.com/in/candela-landi-5651002ab/"><i class='bx bxl-linkedin'></i></a>
-      <a target="_blank" href="https://github.com/CandeLandi"><i class='bx bxl-github'></i></a>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/candela-landi-5651002ab/"
+        ><i class="bx bxl-linkedin"></i
+      ></a>
+      <a target="_blank" href="https://github.com/CandeLandi"
+        ><i class="bx bxl-github"></i
+      ></a>
     </div>
 
     <div class="btn-group">
-      <!--      <a href="#" class="btn">Contratar</a> -->
-      <a  target="_blank" href="../../../assets/Candela-Landi (1).pdf" class="btn">
-        Descargar curriculum
+      <a [href]="cvUrl" target="_blank" class="btn">
+        {{ "download" | translate }}
       </a>
     </div>
 
   </div>
 
   <div class="home-img">
-    <img src="../../../assets/icons/perfil.jpg" alt="">
+    <img src="../../../assets/icons/perfil.jpg" alt="" />
   </div>
 
-  <!--   <a href="#" class="btn"> Hire </a>
- -->
 </section>

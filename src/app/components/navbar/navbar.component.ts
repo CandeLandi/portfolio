@@ -1,4 +1,5 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-navbar',
@@ -9,6 +10,14 @@ export class NavbarComponent implements OnInit {
   active: string = '#home';
   menuOpen: boolean = false;
   isMobile: boolean = false;
+
+  constructor(private translate: TranslateService) {
+    translate.setDefaultLang('es');
+  }
+
+  switchLanguage(language: string) {
+    this.translate.use(language);
+  }
 
   ngOnInit() {
     this.checkScreenWidth();
