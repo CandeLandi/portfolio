@@ -29,7 +29,8 @@ export class PortfolioComponent {
         { name: 'CSS', src: 'assets/icons/css3.svg' },
         { name: 'JavaScript', src: 'assets/icons/javascript.svg' },
         { name: 'Angular', src: 'assets/icons/angular.svg' },
-        { name: 'ExpressJS', src: 'assets/icons/express.svg' }
+        { name: 'ExpressJS', src: 'assets/icons/express.svg' },
+        { name: 'Google' , src: 'assets/icons/googlecloud.svg' }
       ],
       link: 'https://adminpro-backend1-993bf28005ef.herokuapp.com',
       github: 'https://github.com/CandeLandi/admin-pro'
