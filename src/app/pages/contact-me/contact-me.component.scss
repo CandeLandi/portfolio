@@ -5,7 +5,7 @@ margin-bottom: 50px;
 .heading {
   font-size: 4rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
   font-weight: 800;
   margin-top: 6rem;
 
@@ -18,6 +18,7 @@ margin-bottom: 50px;
 
 
 .contact-container {
+
   width: 100%;
 
   .contact-options {
@@ -44,13 +45,14 @@ margin-bottom: 50px;
       }
 
       .contact-option-icon {
+
         position: relative;
 
         img {
           position: absolute;
           width: 50px;
           filter: brightness(0) invert(1);
-          top: -48px;
+          top: -80px;
           left: 108px;
           height: auto;
         }

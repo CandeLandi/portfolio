@@ -4,21 +4,30 @@
   "about": "Desarrolladora Frontend",
   "download": "Descargar currículum",
 
-  "education": "Educación",
-  "course-name-one": "Angular avanzado: MEAN Stack",
-  "course-description-one": " Curso avanzado donde aprendí a desarrollar aplicaciones modulares y escalables en Angular utilizando MEAN Stack (MongoDB, Express, Angular, Node.js). Implementé autenticación segura con JWT y Google Sign-In, construí APIs RESTful con Express, y trabajé con pruebas unitarias, integración continua y control de versiones con GitHub, preparando aplicaciones listas para producción.",
-  "course-name-two": "REDUX en Angular con NGRX: Desde las bases hasta la práctica",
-  "course-description-two": "Curso sobre la implementación del patrón Redux en aplicaciones Angular, utilizando NgRx para gestionar cambios de estado de manera eficiente. Aprendí a dominar la librería NgRx, incluyendo el uso de efectos para manejar tareas asincrónicas y acciones complejas. El curso también abarcó la integración con Firebase, utilizando AngularFire2, Firebase Hosting y Firestore, lo que me permitió desplegar aplicaciones en entornos de producción. Esta experiencia amplió mis conocimientos en Angular, capacitándome para desarrollar aplicaciones escalables y optimizadas.",
-  "course-name-three": "Angular: De cero a experto",
-  "course-description-three": "Curso de Angular donde aprendí a desarrollar aplicaciones usando este framework de manera profunda, siguiendo estándares y buenas prácticas. El curso cubrió el uso de TypeScript y la integración de librerías de terceros (Bootstrap, Prime Ng, Prime Flex y Angular Material), además de temas avanzados como señales, componentes, directivas, servicios, y mapas. También se trabajo con backend en Nest Js, adquirí habilidades en la autenticación con JWT, despliegues de aplicaciones, y el manejo de bases de datos con MongoDB, Docker y postman para sus pruebas. ",
-  "course-name-four": "CoderHouse - Angular",
-  "course-description-four": "Curso enfocado en los conceptos fundamentales de Angular, incluyendo el desarrollo de aplicaciones CRUD utilizando Angular Material y Redux para el manejo del estado de la aplicación.",
-  "course-name-five": "Javascript: El Curso Completo, Práctico y desde Cero",
-  "course-description-five": "  Curso intensivo abordando conceptos avanzados de JavaScript, incluyendo el manejo del BOM y DOM para la creación de sitios web interactivos. Se desarrollaron 6 proyectos prácticos y se exploraron las API para la integración con servidores y servicios externos.",
-  "course-name-six": "CoderHouse - JavaScript",
-  "course-description-six": "  Curso centrado en la programación con JavaScript, incluyendo el uso de funciones, operadores, promesas, ciclos, sincronía y manipulación de datos con Storage & JSON.",
-  "course-name-seven": "CoderHouse - Desarrollo web",
-  "course-description-seven": "Curso enfocado en los fundamentos del desarrollo web, abarcando HTML, CSS, NodeJs, Git, Github, Sass, SEO, servidores, animacione frameworks como Bootstrap. Duración: 38 horas distribuidas en 10 semanas.",
+
+"education": "Educación",
+"course-name-one": "Angular avanzado: MEAN Stack",
+"course-description-one": "Desarrollo de aplicaciones con MEAN Stack (MongoDB, Express, Angular, Node.js), autenticación con JWT y Google Sign-In, APIs RESTful, pruebas unitarias y control de versiones con GitHub.",
+
+"course-name-two": "REDUX en Angular con NGRX: Desde las bases hasta la práctica",
+"course-description-two": "Implementación de Redux en Angular con NgRx, gestión de estado, efectos para tareas asincrónicas, integración con Firebase (AngularFire2, Firebase Hosting, Firestore).",
+
+"course-name-three": "Angular: De cero a experto",
+"course-description-three": "Desarrollo con Angular, TypeScript, librerías (Bootstrap, Prime Ng, Prime Flex, Angular Material), backend con Nest Js, autenticación JWT, MongoDB, Docker y pruebas en Postman.",
+
+"course-name-four": "CoderHouse - Angular",
+"course-description-four": "Conceptos fundamentales de Angular, aplicaciones CRUD con Angular Material, manejo de estado con Redux.",
+
+"course-name-five": "Javascript: El Curso Completo, Práctico y desde Cero",
+"course-description-five": "JavaScript avanzado, manejo de BOM y DOM, desarrollo de proyectos prácticos y uso de API para integración externa.",
+
+"course-name-six": "CoderHouse - JavaScript",
+"course-description-six": "Programación en JavaScript con funciones, promesas, sincronía y manipulación de datos (Storage & JSON).",
+
+"course-name-seven": "CoderHouse - Desarrollo web",
+"course-description-seven": "Fundamentos de desarrollo web: HTML, CSS, NodeJs, Git, GitHub, Sass, SEO, Bootstrap.",
+
+
 
   "bachelor": "Escuela de Educación Técnica N°3",
   "bachelor-description": "Graduado en la especialización de 'Técnico en Comunicación Multimedial'. Durante este tiempo, adquirí un amplio conjunto de habilidades en el manejo de diversas herramientas y software, incluyendo edición de video, diseño gráfico, animación, comunicación, guionización y desarrollo web.",
