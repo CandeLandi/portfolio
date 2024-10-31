@@ -36,6 +36,7 @@ margin-bottom: 50px;
       text-align: center;
       transition: var(--transition);
       width: 300px;
+      height: auto;
       background: transparent;
       border: 1px solid var(--main-color);
 
@@ -47,13 +48,13 @@ margin-bottom: 50px;
       .contact-option-icon {
 
         position: relative;
-
+        margin-bottom: 15px;
         img {
           position: absolute;
-          width: 50px;
+          width: 55px;
           filter: brightness(0) invert(1);
-          top: -80px;
-          left: 108px;
+          top: -50px;
+          left: 106px;
           height: auto;
         }
       }
