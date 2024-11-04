@@ -12,7 +12,7 @@
 
   .skills-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     flex-wrap: wrap;
     justify-items: space-between;
@@ -62,7 +62,7 @@
 
   #skills .skills-container {
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    align-items: center;;
   }
 
 

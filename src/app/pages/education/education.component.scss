@@ -1,6 +1,6 @@
 section {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   .heading {
     font-size: 4rem;
     text-align: center;
@@ -145,6 +145,11 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    &::before {
+      content: "";
+      width: 0px;
+    }
+
 
     .timeline-item {
 
