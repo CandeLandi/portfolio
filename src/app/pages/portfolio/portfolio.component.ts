@@ -8,18 +8,17 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
   items = [
     {
-      name: 'Game of the year - Frontend & Backend',
-      src: 'assets/projects-img/goty.png',
+      name: 'Gif App',
+      src: 'assets/projects-img/gifReactApp.png',
       tecnology: [
         { name: 'HTML', src: 'assets/icons/html5.svg' },
         { name: 'CSS', src: 'assets/icons/css3.svg' },
         { name: 'JavaScript', src: 'assets/icons/javascript.svg' },
-        { name: 'Angular', src: 'assets/icons/angular.svg' },
-        { name: 'Firebase', src: 'assets/icons/firebase.svg' },
-        { name: 'ExpressJS', src: 'assets/icons/express.svg' }
+        { name: 'React', src: 'assets/icons/react.svg' },
+        { name: 'Jest', src: 'assets/icons/jest.svg' },
       ],
-      link: 'https://firestore-chart-67176.web.app',
-      github: 'https://github.com/CandeLandi/goty'
+      link: 'https://gifs-expert-react-app.netlify.app',
+      github: 'https://github.com/CandeLandi/gif-expert-app-react'
     },
     {
       name: 'Admin Pro - Frontend & Backend',
@@ -34,6 +33,20 @@ export class PortfolioComponent {
       ],
       link: 'https://adminpro-backend1-993bf28005ef.herokuapp.com',
       github: 'https://github.com/CandeLandi/admin-pro'
+    },
+    {
+      name: 'Game of the year - Frontend & Backend',
+      src: 'assets/projects-img/goty.png',
+      tecnology: [
+        { name: 'HTML', src: 'assets/icons/html5.svg' },
+        { name: 'CSS', src: 'assets/icons/css3.svg' },
+        { name: 'JavaScript', src: 'assets/icons/javascript.svg' },
+        { name: 'Angular', src: 'assets/icons/angular.svg' },
+        { name: 'Firebase', src: 'assets/icons/firebase.svg' },
+        { name: 'ExpressJS', src: 'assets/icons/express.svg' }
+      ],
+      link: 'https://firestore-chart-67176.web.app',
+      github: 'https://github.com/CandeLandi/goty'
     },
     {
       name: 'Ingresos Egresos App',
