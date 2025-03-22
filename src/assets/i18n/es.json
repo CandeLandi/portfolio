@@ -1,11 +1,15 @@
 {
   "welcome-home": "Hola! soy",
-  "description": "Tengo 23 años, soy de la ciudad de Necochea, llevo más de un año en el mundo del desarrollo web dedicando mucho tiempo a la capacitación y la práctica de tecnologías como Html, Css, JavaScript, Angular, Nest.js y Express.js . Soy una persona proactiva , creativa, me gusta mucho aprender y enfrentar nuevos desafíos. Busco poder desarrollarme en el ámbito laboral y ser parte de un equipo de trabajo dinámico!",
+  "description": "Desarrolladora frontend con experiencia en el desarrollo de aplicaciones web y mobile utilizando tecnologías como Angular, Ionic, Tailwind CSS, TypeScript, JavaScript, Nest.js y Express.js. Me caracterizo por ser proactiva, creativa y apasionada por el mundo IT. Disfruto trabajar en equipo, aportar ideas y asumir nuevos desafíos que me permitan evolucionar tanto técnica como personalmente.",
   "about": "Desarrolladora Frontend",
   "download": "Descargar currículum",
 
 
 "education": "Educación",
+
+"course-name-zero": "Udemy - Angular PRO",
+"course-description-zero": "Curso enfocado en las nuevas características de Angular 17, 18 y 19: uso avanzado de signals, desarrollo sin zone.js (zoneless), manejo de internacionalización con i18n, creación de paquetes personalizados en Node.js, lazy loading optimizado y buenas prácticas para aplicaciones escalables",
+
 "course-name-one": "Angular avanzado: MEAN Stack",
 "course-description-one": "Desarrollo de aplicaciones con MEAN Stack (MongoDB, Express, Angular, Node.js), autenticación con JWT y Google Sign-In, APIs RESTful, pruebas unitarias y control de versiones con GitHub.",
 
@@ -47,6 +51,14 @@
   "chit-chat": "Hablemos!",
   "send-message": "Enviar mensaje",
 
-  "skills": "Habilidades"
+  "skills": "Habilidades",
 
+  "work-experience": "Experiencia",
+  "aiko-work-experience": "Aiko - Desarrolladora Frontend",
+  "aiko-duration": "Febrero 2025 - Actualidad",
+  "aiko-description": "Desarrollo de aplicaciones móviles utilizando Angular e Ionic. Trabajo de forma autónoma en la implementación de nuevas funcionalidades, optimización de rendimiento y mantenimiento de código.",
+
+  "rakium-work-experience": "Rakium - Desarrolladora Frontend (Pasante)",
+  "rakium-duration": "Noviembre 2024 - Marzo 2025",
+  "rakium-description": "Participación en el desarrollo de EventLoop.club, una plataforma de venta de tickets para eventos creada con Angular, Tailwind CSS, y backend en Golang. Colaboración activa con el equipo técnico siguiendo buenas prácticas y metodologías ágiles"
 }

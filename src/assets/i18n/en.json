@@ -1,30 +1,30 @@
 {
   "welcome-home": "Hello! I'm",
-  "description": "I am 23 years old, from Necochea, and have been in the field of web development for over a year, dedicating a lot of time to learning and practicing technologies like HTML, CSS, JavaScript, Angular, Nest.js and Express.js . I am a proactive, creative person who loves learning and taking on new challenges. I am looking to grow professionally and be part of a dynamic team!",
+  "description": "Frontend developer with experience in building web and mobile applications using technologies such as Angular, Ionic, Tailwind CSS, TypeScript, JavaScript, Nest.js, and Express.js. I’m proactive, creative, and passionate about the IT world. I enjoy working in teams, contributing ideas, and taking on new challenges that allow me to grow both technically and personally.",
   "about": "Frontend Developer",
   "download": "Download CV",
 
-"education": "Education",
-"course-name-one": "Advanced Angular: MEAN Stack",
-"course-description-one": "Development with MEAN Stack (MongoDB, Express, Angular, Node.js), JWT and Google Sign-In authentication, RESTful APIs, unit testing, and GitHub version control.",
+  "education": "Education",
+  "course-name-one": "Advanced Angular: MEAN Stack",
+  "course-description-one": "Development with MEAN Stack (MongoDB, Express, Angular, Node.js), JWT and Google Sign-In authentication, RESTful APIs, unit testing, and GitHub version control.",
 
-"course-name-two": "REDUX in Angular with NGRX: From Basics to Practice",
-"course-description-two": "Redux implementation in Angular with NgRx, state management, asynchronous tasks with effects, and Firebase integration (AngularFire2, Firebase Hosting, Firestore).",
+  "course-name-two": "REDUX in Angular with NGRX: From Basics to Practice",
+  "course-description-two": "Redux implementation in Angular with NgRx, state management, asynchronous tasks with effects, and Firebase integration (AngularFire2, Firebase Hosting, Firestore).",
 
-"course-name-three": "Angular: Zero to Expert",
-"course-description-three": "Development in Angular, TypeScript, libraries (Bootstrap, Prime Ng, Prime Flex, Angular Material), backend with Nest Js, JWT authentication, MongoDB, Docker, and testing with Postman.",
+  "course-name-three": "Angular: Zero to Expert",
+  "course-description-three": "Development in Angular, TypeScript, libraries (Bootstrap, Prime Ng, Prime Flex, Angular Material), backend with Nest Js, JWT authentication, MongoDB, Docker, and testing with Postman.",
 
-"course-name-four": "CoderHouse - Angular",
-"course-description-four": "Fundamental Angular concepts, CRUD applications with Angular Material, state management with Redux.",
+  "course-name-four": "CoderHouse - Angular",
+  "course-description-four": "Fundamental Angular concepts, CRUD applications with Angular Material, state management with Redux.",
 
-"course-name-five": "JavaScript: The Complete, Practical Course from Scratch",
-"course-description-five": "Advanced JavaScript, BOM and DOM handling, practical projects, and API usage for external integration.",
+  "course-name-five": "JavaScript: The Complete, Practical Course from Scratch",
+  "course-description-five": "Advanced JavaScript, BOM and DOM handling, practical projects, and API usage for external integration.",
 
-"course-name-six": "CoderHouse - JavaScript",
-"course-description-six": "JavaScript programming with functions, promises, async handling, and data manipulation (Storage & JSON).",
+  "course-name-six": "CoderHouse - JavaScript",
+  "course-description-six": "JavaScript programming with functions, promises, async handling, and data manipulation (Storage & JSON).",
 
-"course-name-seven": "CoderHouse - Web Development",
-"course-description-seven": "Web development fundamentals: HTML, CSS, NodeJs, Git, GitHub, Sass, SEO, Bootstrap.",
+  "course-name-seven": "CoderHouse - Web Development",
+  "course-description-seven": "Web development fundamentals: HTML, CSS, NodeJs, Git, GitHub, Sass, SEO, Bootstrap.",
 
   "bachelor": "Technical School No. 3",
   "bachelor-description": "Graduated with a specialization in 'Multimedia Communication Technician.' During this time, I acquired a wide range of skills in handling various tools and software, including video editing, graphic design, animation, communication, scripting, and web development.",
@@ -44,5 +44,15 @@
   "chit-chat": "Let's Chat!",
   "send-message": "Send Message",
 
-  "skills": "Skills"
+  "skills": "Skills",
+
+  "work-experience": "Work Experience",
+
+  "aiko-work-experience": "Aiko - Frontend Developer",
+  "aiko-duration": "February 2025 - Present",
+  "aiko-description": "Development of mobile applications using Angular and Ionic. I work independently on implementing new features, optimizing performance, and maintaining code to ensure scalability and a great user experience.",
+
+  "rakium-work-experience": "Rakium - Frontend Developer (Intern)",
+  "rakium-duration": "November 2024 - March 2025",
+  "rakium-description": "Contributed to the development of EventLoop.club, a ticketing platform for events built with Angular, Tailwind CSS, and a Golang backend. Actively collaborated with the technical team following best practices and agile methodologies."
 }

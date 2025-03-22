@@ -25,8 +25,8 @@ export class SkillsComponent {
     { name: 'Bootstrap', icon: 'assets/icons/bootstrap.svg' },
     { name: 'Tailwind', icon: 'assets/icons/tailwindcss.svg' },
     { name: 'SASS', icon: 'assets/icons/sass.svg' },
-    { name: 'Jest', icon: 'assets/icons/jest.svg' },
-    { name: 'React', icon: 'assets/icons/react.svg' },
+/*     { name: 'Jest', icon: 'assets/icons/jest.svg' },
+    { name: 'React', icon: 'assets/icons/react.svg' }, */
 
   ];
 
