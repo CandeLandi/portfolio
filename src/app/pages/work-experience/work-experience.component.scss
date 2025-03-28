@@ -90,3 +90,60 @@
     }
   }
 }
+@media (max-width: 895px) {
+  #work-experience {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    .work-experience-title {
+      h2 {
+        font-size: 2rem;
+      }
+    }
+
+    .work-experiences {
+      flex-direction: column;
+      align-items: center;
+
+      &::before {
+        content: "";
+        width: 0;
+      }
+
+      .work-experience-item {
+        width: 300px;
+        padding: 0;
+        text-align: left;
+
+        &:nth-child(odd),
+        &:nth-child(even) {
+          padding: 0;
+        }
+
+        .timeline-dot {
+          left: 0;
+          width: 11px;
+          height: 11px;
+        }
+
+        span {
+          font-size: 12px;
+          padding-left: 15px;
+        }
+
+        .work-experience-content {
+          padding: 25px;
+
+          h3 {
+            font-size: 15px;
+            margin-bottom: 10px;
+          }
+
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
