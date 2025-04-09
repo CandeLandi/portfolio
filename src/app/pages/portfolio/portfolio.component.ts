@@ -8,6 +8,18 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
   items = [
     {
+      name: 'JC Cosmetology',
+      src: 'assets/projects-img/jc-cosmetology.png',
+      tecnology: [
+        { name: 'HTML', src: 'assets/icons/html5.svg' },
+        { name: 'CSS', src: 'assets/icons/css3.svg' },
+        { name: 'Angular', src: 'assets/icons/angular.svg' },
+        { name: 'Tailwind', src: 'assets/icons/tailwindcss.svg' }
+      ],
+      link: 'https://www.jc-cosmetology.com',
+      github: 'https://github.com/CandeLandi/jc-cosmetology'
+    },
+    {
       name: 'Gif App',
       src: 'assets/projects-img/gifReactApp.png',
       tecnology: [
