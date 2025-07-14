@@ -5,7 +5,7 @@
   "download": "Descargar currículum",
 
 
-"education": "Educación",
+"education": "Certificaciones",
 
 "course-name-zero": "Udemy - Angular PRO",
 "course-description-zero": "Curso enfocado en las nuevas características de Angular 17, 18 y 19: uso avanzado de signals, desarrollo sin zone.js (zoneless), manejo de internacionalización con i18n, creación de paquetes personalizados en Node.js, lazy loading optimizado y buenas prácticas para aplicaciones escalables",
@@ -42,7 +42,7 @@
   "hours": "horas",
   "finished": "Finalizado",
 
-  "portfolio": "Trabajos recientes",
+  "portfolio": "Proyectos realizados en cursos",
 
   "portfolio-title": "Proyectos",
   "home-title": "Inicio",
@@ -60,5 +60,11 @@
 
   "rakium-work-experience": "Rakium - Desarrolladora Frontend (Pasante)",
   "rakium-duration": "Noviembre 2024 - Marzo 2025",
-  "rakium-description": "Participación en el desarrollo de EventLoop.club, una plataforma de venta de tickets para eventos creada con Angular, Tailwind CSS, y backend en Golang. Colaboración activa con el equipo técnico siguiendo buenas prácticas y metodologías ágiles"
+  "rakium-description": "Participación en el desarrollo de EventLoop.club, una plataforma de venta de tickets para eventos creada con Angular, Tailwind CSS, y backend en Golang. Colaboración activa con el equipo técnico siguiendo buenas prácticas y metodologías ágiles",
+
+  "featured-projects-title": "Proyectos destacados",
+  "featured-projects-subtitle": "Proyectos desarrollados de manera freelance para clientes reales",
+  "featured-projects-link": "Ver proyecto",
+  "featured-projects-technologies": "Tecnologías",
+  "featured-projects-no-image": "Sin imagen disponible"
 }
