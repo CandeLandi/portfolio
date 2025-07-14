@@ -19,7 +19,7 @@ export class HomeComponent {
 
   setCvUrl() {
     const currentLang = this.translate.currentLang || this.translate.getDefaultLang();
-    this.cvUrl = currentLang === 'en' ? 'assets/Candela-Landi-ENG.pdf' : 'assets/Landi.Candela-cv.pdf';
+    this.cvUrl = currentLang === 'en' ? 'assets/Candela-Landi-ENG.pdf' : 'assets/landi-candela.cv.pdf';
 
   }
 }

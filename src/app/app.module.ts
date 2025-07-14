@@ -18,6 +18,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { SkillsComponent } from './pages/skills/skills.component';
 import { WorkExperienceComponent } from './pages/work-experience/work-experience.component';
+import { FeaturedProjectsComponent } from './pages/featured-projects/featured-projects.component';
+import { LucideAngularModule } from 'lucide-angular';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -33,7 +35,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     FooterComponent,
     ContactMeComponent,
     SkillsComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    FeaturedProjectsComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +45,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatIconModule,
     MatSidenavModule,
     HttpClientModule,
+    LucideAngularModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

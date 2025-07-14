@@ -1,38 +1,21 @@
-<section id="contact">
-  <h2 class="heading"> <span>{{ "chit-chat" | translate }}</span></h2>
-
-  <div class="contact-container">
-    <div class="contact-options">
-
-
-      <div class="contact-option">
-
-        <div class="contact-option-icon">
-          <img  src="../../../assets/icons/correo-electronico.svg" alt="">
-        </div>
-        <div class="contact-info">
-
-         <!--  <h4>Email</h4> -->
-          <h5> {{ emailTo }} </h5>
-          <a href="mailto:landicandela01@gmail.com" target="_blank">
-            {{ "send-message" | translate }}
-          </a>
-        </div>
-      </div>
-
-      <div class="contact-option">
-        <div class="contact-option-icon">
-          <img src="../../../assets/icons/whatsapp.svg" alt="">
-        </div>
-        <!--    <h4>Whatsapp</h4> -->
-        <div class="contact-info">
-          <h5>+549 02262660996</h5>
-          <a href="https://api.whatsapp.com/send?phone=542262660996" target="_blank">
-            {{ "send-message" | translate }}
-          </a>
-      </div>
+<section id="contact" class="contact-gradient">
+  <div class="container-max text-center">
+    <div class="contact-status">
+      <div class="status-dot"></div>
+      <span class="status-text">Disponible para nuevos proyectos</span>
     </div>
-
+    <h2 class="contact-title">
+      ¿Trabajamos juntos?
+    </h2>
+    <div class="contact-actions">
+      <a href="mailto:landicandela01@gmail.com" class="btn btn-gradient">
+        <i class='bx bx-mail-send'></i>
+        Enviar Email
+      </a>
+      <a [href]="cvUrl" target="_blank" class="btn btn-outline-gradient">
+        <i class='bx bx-download'></i>
+        Descargar CV
+      </a>
     </div>
   </div>
 </section>

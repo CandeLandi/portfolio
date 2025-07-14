@@ -1,0 +1,53 @@
+<section class="featured-section">
+  <div class="container-max">
+    <h2 class="section-title">Proyectos destacados</h2>
+    <p class="section-subtitle">Proyectos desarrollados de manera freelance para clientes reales</p>
+    <div class="projects-list">
+      <div *ngFor="let project of projects" class="project-card">
+        <div class="project-grid">
+
+          <div class="image-slider" [ngClass]="{'has-images': project.images.length > 0}">
+            <div class="slider-img-wrapper">
+              <img
+                *ngIf="project.images.length > 0; else placeholder"
+                [src]="project.images[currentImageIndex[project.id] || 0]"
+                [alt]="project.title + ' - Imagen ' + ((currentImageIndex[project.id] || 0) + 1)"
+                class="slider-img"
+              />
+              <ng-template #placeholder>
+                <div class="slider-placeholder">
+                  <span class="placeholder-icon">🖼️</span>
+                </div>
+              </ng-template>
+              <!-- Flechas navegación -->
+              <button *ngIf="project.images.length > 1" class="slider-arrow left" (click)="prevImage(project.id, project.images.length)">&#60;</button>
+              <button *ngIf="project.images.length > 1" class="slider-arrow right" (click)="nextImage(project.id, project.images.length)">&#62;</button>
+            </div>
+            <!-- Indicadores -->
+            <div *ngIf="project.images.length > 1" class="slider-indicators">
+              <button
+                *ngFor="let img of project.images; let i = index"
+                [class.active]="i === (currentImageIndex[project.id] || 0)"
+                (click)="goToImage(project.id, i)"
+              ></button>
+            </div>
+          </div>
+          <!-- Detalles del proyecto -->
+          <div class="project-details">
+            <h3 class="project-title">{{ project.title }}</h3>
+            <p class="project-desc">{{ project.description }}</p>
+            <div class="project-techs">
+              <span *ngFor="let tech of project.technologies" class="tech-badge">{{ tech }}</span>
+            </div>
+            <div class="project-links">
+              <a *ngIf="project.liveUrl" [href]="project.liveUrl" target="_blank" class="project-link">
+                <i class='bx bx-globe'></i>
+                {{ project.liveUrl.replace('https://', '').replace('http://', '') }}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

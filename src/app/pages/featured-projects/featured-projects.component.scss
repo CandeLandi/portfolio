@@ -1,0 +1,200 @@
+.featured-section {
+  position: relative;
+  padding: 2.5rem 2rem;
+  background: #000;
+  overflow: hidden;
+
+
+  .container {
+    max-width: 1536px;
+    margin: 0 auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .section-title {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .section-subtitle {
+    color: #d1d5db;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .project-card {
+    border: 1px solid #06b6d4;
+    border-radius: 1rem;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(4px);
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    @media (min-width: 1024px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    align-items: stretch;
+    .project-details {
+      max-height: 100%;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  .image-slider {
+    position: relative;
+    background: #111;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    .slider-img-wrapper {
+      position: relative;
+      width: 100%;
+      aspect-ratio: unset; // Permitir altura natural
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .slider-img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      transition: all 0.5s;
+      border-radius: 0;
+      display: block;
+    }
+    .slider-placeholder {
+      width: 100%;
+      height: 100%;
+      background: #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      color: #bbb;
+    }
+    .slider-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 2.5rem;
+      height: 2.5rem;
+      background: rgba(6,182,212,0.2);
+      border: 1px solid #06b6d4;
+      border-radius: 50%;
+      color: #06b6d4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: 2;
+      font-size: 1.5rem;
+      cursor: pointer;
+      &.left { left: 1rem; }
+      &.right { right: 1rem; }
+    }
+    &:hover .slider-arrow {
+      opacity: 1;
+    }
+    .slider-indicators {
+      position: absolute;
+      bottom: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 0.5rem;
+      button {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.3);
+        border: none;
+        transition: background 0.3s;
+        &.active {
+          background: #06b6d4;
+        }
+        &:hover {
+          background: #67e8f9;
+        }
+      }
+    }
+  }
+
+  .project-details {
+    padding: 1.2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    @media (min-width: 1024px) {
+      padding: 3rem 3rem;
+    }
+    .project-title {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .project-desc {
+      color: #d1d5db;
+      font-size: 0.98rem;
+      margin-bottom: 1.2rem;
+    }
+    .project-techs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1.2rem;
+      .tech-badge {
+        padding: 0.18rem 0.6rem;
+        font-size: 0.75rem;
+        border: 1px solid #06b6d4;
+        color: #06b6d4;
+        border-radius: 999px;
+        background: rgba(6,182,212,0.1);
+      }
+    }
+    .project-links {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 0.8rem;
+      .project-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #06b6d4;
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: none;
+        background: none;
+        border: none;
+        padding: 0;
+        transition: color 0.2s;
+        svg {
+          margin-right: 0.2rem;
+        }
+      }
+    }
+  }
+}

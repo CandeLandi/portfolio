@@ -40,3 +40,10 @@ body {
   color: var(--text-color);
   align-items: center;
 }
+
+.container-max {
+  max-width: 1536px;
+  margin: 0 auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

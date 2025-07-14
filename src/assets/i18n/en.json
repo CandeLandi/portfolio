@@ -54,5 +54,18 @@
 
   "rakium-work-experience": "Rakium - Frontend Developer (Intern)",
   "rakium-duration": "November 2024 - March 2025",
-  "rakium-description": "Contributed to the development of EventLoop.club, a ticketing platform for events built with Angular, Tailwind CSS, and a Golang backend. Actively collaborated with the technical team following best practices and agile methodologies."
+  "rakium-description": "Contributed to the development of EventLoop.club, a ticketing platform for events built with Angular, Tailwind CSS, and a Golang backend. Actively collaborated with the technical team following best practices and agile methodologies.",
+
+  "featured-projects-title": "Featured Projects",
+  "featured-projects-subtitle": "Projects delivered for real clients",
+  "featured-projects-link": "View Project",
+  "featured-projects-technologies": "Technologies",
+  "featured-projects-no-image": "No image available",
+
+  "contact-available": "Available for new projects",
+  "contact-title": "Shall we work together?",
+  "contact-send-email": "Send Email",
+  "contact-download-cv": "Download CV",
+  "contact-linkedin": "LinkedIn",
+  "contact-github": "GitHub"
 }
