@@ -92,16 +92,9 @@ body {
   }
 
   .timeline-content {
-    background-color: rgba(0, 221, 207, 0.1);
-    border: 1px solid var(--main-color);
     border-radius: 12px;
     padding: 1.5rem;
     transition: all 0.3s ease;
-
-    &:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(0, 221, 207, 0.3);
-    }
 
     h3, h4 {
       color: var(--text-color);
