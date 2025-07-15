@@ -49,12 +49,14 @@
   "work-experience": "Work Experience",
 
   "aiko-work-experience": "Aiko - Frontend Developer",
-  "aiko-duration": "February 2025 - Present",
-  "aiko-description": "Development of mobile applications using Angular and Ionic. I work independently on implementing new features, optimizing performance, and maintaining code to ensure scalability and a great user experience.",
+  "aiko-duration": "February 2025 - March 2025",
+  "aiko-description": "I worked as a frontend developer autonomously on a mobile application using Angular, Tailwind, PrimeNg and Ionic. I participated in the development of an app for trainers, students and clubs, where routines, diets and training calendars could be managed.",
+  "aiko-linkedin": "https://www.linkedin.com/company/aikodev/posts/?feedView=all",
 
-  "rakium-work-experience": "Rakium - Frontend Developer (Intern)",
-  "rakium-duration": "November 2024 - March 2025",
-  "rakium-description": "Contributed to the development of EventLoop.club, a ticketing platform for events built with Angular, Tailwind CSS, and a Golang backend. Actively collaborated with the technical team following best practices and agile methodologies.",
+  "rakium-work-experience": "Rakium - Frontend Developer",
+  "rakium-duration": "November 2024 - Present",
+  "rakium-description": "I work as a freelance frontend developer under the name Rakium, where I carry out web development for real clients, applying modern technologies such as Angular and Tailwind CSS.",
+  "rakium-linkedin": "https://www.linkedin.com/company/rakium/",
 
   "featured-projects-title": "Featured Projects",
   "featured-projects-subtitle": "Projects delivered for real clients",

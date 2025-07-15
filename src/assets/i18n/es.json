@@ -55,12 +55,14 @@
 
   "work-experience": "Experiencia",
   "aiko-work-experience": "Aiko - Desarrolladora Frontend",
-  "aiko-duration": "Febrero 2025 - Actualidad",
-  "aiko-description": "Desarrollo de aplicaciones móviles utilizando Angular e Ionic. Trabajo de forma autónoma en la implementación de nuevas funcionalidades, optimización de rendimiento y mantenimiento de código.",
+  "aiko-duration": "Febrero 2025 - Marzo 2025",
+  "aiko-description": "Me desempeñé como desarrolladora frontend de manera autónoma en una aplicación móvil utilizando Angular, Tailwind, PrimeNg e Ionic. Participé del desarrollo de una app para entrenadores, alumnos y clubs, donde se podían gestionar rutinas, dietas y calendarios de entrenamiento.",
+  "aiko-linkedin": "https://www.linkedin.com/company/aikodev/posts/?feedView=all",
 
-  "rakium-work-experience": "Rakium - Desarrolladora Frontend (Pasante)",
-  "rakium-duration": "Noviembre 2024 - Marzo 2025",
-  "rakium-description": "Participación en el desarrollo de EventLoop.club, una plataforma de venta de tickets para eventos creada con Angular, Tailwind CSS, y backend en Golang. Colaboración activa con el equipo técnico siguiendo buenas prácticas y metodologías ágiles",
+  "rakium-work-experience": "Rakium - Desarrolladora Frontend",
+  "rakium-duration": "Noviembre 2024 - Actualidad",
+  "rakium-description": "Me desempeño como desarrolladora frontend freelance bajo el nombre de Rakium, donde llevo adelante el desarrollo de sitios web para clientes reales, aplicando tecnologías modernas como Angular y Tailwind CSS.",
+  "rakium-linkedin": "https://www.linkedin.com/company/rakium/",
 
   "featured-projects-title": "Proyectos destacados",
   "featured-projects-subtitle": "Proyectos desarrollados de manera freelance para clientes reales",

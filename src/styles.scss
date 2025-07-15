@@ -8,8 +8,8 @@
 }
 
 :root {
-  --bg-color: #080808;
-  --second-bg-color: #131313;
+  --bg-color: #000000;
+  --second-bg-color: #000000;
   --text-color: white;
   --main-color: #00ddcf;
 
@@ -31,12 +31,11 @@ html, body {
   height: 100%;
 }
 
-
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   font-size: 1rem;
-  background-color: var(--bg-color);
+  background-color: #000000;
   color: var(--text-color);
   align-items: center;
 }
@@ -46,4 +45,172 @@ body {
   margin: 0 auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+/* Timeline Global Styles */
+.timeline-container {
+  position: relative;
+  padding: 2rem 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--main-color);
+  }
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 60px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .timeline-dot {
+    position: absolute;
+    left: 11px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--bg-color), 0 0 0 8px var(--main-color);
+    z-index: 2;
+  }
+
+  .timeline-date {
+    font-size: 0.9rem;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .timeline-content {
+    background-color: rgba(0, 221, 207, 0.1);
+    border: 1px solid var(--main-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0, 221, 207, 0.3);
+    }
+
+    h3, h4 {
+      color: var(--text-color);
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: var(--text-color);
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 0.5rem;
+    }
+
+    span {
+      color: var(--main-color);
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    .company-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--main-color);
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-decoration: none;
+      margin-top: 0.8rem;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: #0077b5;
+        transform: translateY(-1px);
+      }
+
+      i {
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+/* Responsive Timeline */
+@media (max-width: 768px) {
+  .timeline-container {
+    padding: 1.5rem 0;
+
+    &::before {
+      left: 15px;
+    }
+  }
+
+  .timeline-item {
+    padding-left: 50px;
+    margin-bottom: 1.5rem;
+
+    .timeline-dot {
+      left: 6px;
+      width: 18px;
+      height: 18px;
+    }
+
+    .timeline-content {
+      padding: 1rem;
+
+      h3, h4 {
+        font-size: 1.1rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-container {
+    padding: 1rem 0;
+
+    &::before {
+      left: 12px;
+    }
+  }
+
+  .timeline-item {
+    padding-left: 40px;
+    margin-bottom: 1rem;
+
+    .timeline-dot {
+      left: 2px;
+      width: 16px;
+      height: 16px;
+    }
+
+    .timeline-content {
+      padding: 0.8rem;
+
+      h3, h4 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 0.85rem;
+      }
+    }
+  }
 }

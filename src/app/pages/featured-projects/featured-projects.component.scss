@@ -36,8 +36,8 @@
   }
 
   .project-card {
-    border: 1px solid #06b6d4;
-    border-radius: 1rem;
+    /* border: 1px solid #06b6d4; */
+    border-radius: 0.5rem;
     background: rgba(0,0,0,0.5);
     backdrop-filter: blur(4px);
     overflow: hidden;
@@ -78,10 +78,16 @@
     .slider-img {
       width: 100%;
       height: auto;
-      object-fit: contain;
+      object-fit: cover;
       transition: all 0.5s;
       border-radius: 0;
       display: block;
+      border: none !important;
+      outline: none !important;
+      border-color: #000000 !important;
+      box-shadow: none !important;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
     }
     .slider-placeholder {
       width: 100%;

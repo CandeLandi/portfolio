@@ -4,22 +4,30 @@
   </div>
 
   <div class="container-max">
-    <div class="work-experiences">
-      <div class="work-experience-item">
+    <div class="timeline-container">
+      <div class="timeline-item">
         <div class="timeline-dot"></div>
-        <span class="work-experience-date">{{ "aiko-duration" | translate }}</span>
-        <div class="work-experience-content">
-          <h4 class="work-experience-position">{{ "aiko-work-experience" | translate }}</h4>
-          <p>{{ "aiko-description" | translate }}</p>
+        <div class="timeline-date">{{ "rakium-duration" | translate }}</div>
+        <div class="timeline-content">
+          <h4>{{ "rakium-work-experience" | translate }}</h4>
+          <p>{{ "rakium-description" | translate }}</p>
+          <a [href]="'rakium-linkedin' | translate" target="_blank" class="company-link">
+            <i class='bx bxl-linkedin'></i>
+            Ver perfil de la empresa
+          </a>
         </div>
       </div>
 
-      <div class="work-experience-item">
+      <div class="timeline-item">
         <div class="timeline-dot"></div>
-        <span class="work-experience-date">{{ "rakium-duration" | translate }}</span>
-        <div class="work-experience-content">
-          <h4 class="work-experience-position">{{ "rakium-work-experience" | translate }}</h4>
-          <p>{{ "rakium-description" | translate }}</p>
+        <div class="timeline-date">{{ "aiko-duration" | translate }}</div>
+        <div class="timeline-content">
+          <h4>{{ "aiko-work-experience" | translate }}</h4>
+          <p>{{ "aiko-description" | translate }}</p>
+          <a [href]="'aiko-linkedin' | translate" target="_blank" class="company-link">
+            <i class='bx bxl-linkedin'></i>
+            Ver perfil de la empresa
+          </a>
         </div>
       </div>
     </div>
