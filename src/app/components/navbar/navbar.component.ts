@@ -29,7 +29,13 @@ export class NavbarComponent implements OnInit {
   }
 
   checkScreenWidth() {
+    const wasMobile = this.isMobile;
     this.isMobile = window.innerWidth <= 600;
+
+    // Si cambia de móvil a desktop, cerrar el menú
+    if (wasMobile && !this.isMobile) {
+      this.menuOpen = false;
+    }
   }
 
   setActiveNav(url: string) {
