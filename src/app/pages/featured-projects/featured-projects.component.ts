@@ -25,28 +25,30 @@ export class FeaturedProjectsComponent {
         'assets/projects-img/ong-valoresparalafamilia/FireShot Capture 047 - ONG Valores para la Familia - Prevención de Abuso Sexual Infantil -_ - [valoresparalafamilia.com].png',
         'assets/projects-img/ong-valoresparalafamilia/Screenshot 2025-07-31 180603.png'
       ],
-      technologies: ['Angular', 'Tailwind CSS', 'TypeScript', 'HTML5', 'CSS3'],
-      liveUrl: 'https://valoresparalafamilia.com/',
+      technologies: ['Angular', 'Tailwind CSS', 'TypeScript'],
+      liveUrl: 'https://valoresparalafamilia.com',
       githubUrl: ''
     },
     {
       id: 2,
       title: 'Kamak Desarrollos',
       description: 'Sitio institucional desarrollado para una empresa de construcción. El sistema incluye una plataforma de gestión interna con login y autenticación mediante JWT, donde los administradores acceden a un dashboard privado para cargar, editar y eliminar proyectos (CRUD). El panel permite filtrar, buscar por nombre, gestionar información interna, imágenes y videos. Los proyectos se visualizan en un mapa interactivo integrado con Google Maps, utilizando las APIs de Google Places y Geolocation.',
-      images: [
-        'assets/projects-img/kamak-web/FireShot Capture 063 - Kamak Desarrollos - [kamak.com.ar].png',
-        'assets/projects-img/kamak-web/FireShot Capture 062 - Kamak Desarrollos - [kamak.com.ar].png',
-        'assets/projects-img/kamak-web/FireShot Capture 061 - Kamak Desarrollos - [kamak.com.ar].png',
-        'assets/projects-img/kamak-web/FireShot Capture 060 - Kamak Desarrollos - [kamak.com.ar].png',
-        'assets/projects-img/kamak-web/FireShot Capture 059 - Kamak Desarrollos - [kamak.com.ar].png',
-        'assets/projects-img/kamak-web/FireShot Capture 058 - Kamak Desarrollos - [kamak.com.ar].png',
-        'assets/projects-img/kamak-web/FireShot Capture 055 - Kamak Desarrollos - [kamak.com.ar].png',
-        'assets/projects-img/kamak-web/FireShot Capture 054 - Kamak Desarrollos - [kamak.com.ar].png',
-        'assets/projects-img/kamak-web/FireShot Capture 053 - Kamak Desarrollos - [kamak.com.ar].png',
-        'assets/projects-img/kamak-web/FireShot Capture 028 - Kamak Desarrollos - [localhost].png',
-        'assets/projects-img/kamak-web/FireShot Capture 023 - Kamak Desarrollos - [localhost].png'
-      ],
-      technologies: ['Angular', 'Tailwind', 'Angular Material', 'NestJS', 'Google Maps'],
+              images: [
+          'assets/projects-img/kamak-web/hero.png',
+          'assets/projects-img/kamak-web/projects.png',
+          'assets/projects-img/kamak-web/map.png',
+          'assets/projects-img/kamak-web/services.png',
+          'assets/projects-img/kamak-web/team.png',
+          'assets/projects-img/kamak-web/footer.png',
+          'assets/projects-img/kamak-web/login.png',
+          'assets/projects-img/kamak-web/dashboard-2.png',
+          'assets/projects-img/kamak-web/form-11.png',
+          'assets/projects-img/kamak-web/form-111.png',
+          'assets/projects-img/kamak-web/images-1.png',
+          'assets/projects-img/kamak-web/images-11.png',
+          'assets/projects-img/kamak-web/form-3.png'
+        ],
+      technologies: ['Angular', 'Tailwind', 'Angular Material', 'Google Maps','NestJS', 'PostgreSQL'],
       liveUrl: 'https://kamak.com.ar',
       githubUrl: ''
     },
@@ -62,7 +64,7 @@ export class FeaturedProjectsComponent {
 /*         'assets/projects-img/jc-cosmetology/FireShot Capture 020 - JC Cosmetología - Estética Profesional y Tratamientos Personalizado_ - [jc-cosmetology.com].png',
  */        'assets/projects-img/jc-cosmetology/FireShot Capture 021 - JC Cosmetología - Estética Profesional y Tratamientos Personalizado_ - [jc-cosmetology.com].png',
       ],
-      technologies: ['HTML', 'CSS', 'Angular', 'Tailwind'],
+      technologies: ['Angular', 'Tailwind CSS'],
       liveUrl: 'https://www.jc-cosmetology.com',
     },
   ];
